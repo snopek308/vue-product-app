@@ -16,7 +16,7 @@
           </b-card-text>
           <template v-slot:footer>
             <b-button @click="$bvModal.show('product-modal'); assign_single_product(item)">Details</b-button>
-            <b-button @click="add_to_cart(item)">Add Movie to Cart</b-button>
+            <b-button class="ml-2" @click="add_to_cart(item)">Add Movie to Cart</b-button>
           </template>
         </b-card>
       </b-col>
@@ -127,7 +127,10 @@ export default {
       this.single_product = product; 
     },
     add_to_cart(product){
-
+      console.log('product');
+      console.log(product);
+      //adding to the cart, emit will pass the product to the parent component of the Home.vue
+      this.$emit('clicked', product);
     }
   }
 };
