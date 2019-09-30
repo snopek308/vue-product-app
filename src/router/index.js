@@ -15,7 +15,7 @@ import About from './../views/About.vue';
 //(export default)exported a single class, function, or primitive from a script file
 export default new Router({
     //used for full url navigation, not hased based
-    mode: 'history',
+    mode: 'hash',
     //serving the app out of the public directory
     base: '/',
     //just providing the route itself, the navigation of where the code

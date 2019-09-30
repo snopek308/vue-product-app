@@ -1,10 +1,10 @@
 <template>
   <b-container class="bv-example-row mt-4">
     <b-row>
-      <b-col cols="4" v-for="item in products" :key="`${item.id}`">
+      <b-col cols="4" md="auto" v-for="item in products" :key="`${item.id}`">
         <b-card
           :title="item.title"
-          :img-src="`@/assets/${item.img_name}`"
+          :img-src="item.img_name"
           :img-alt="item.alt_text"
           img-top
           tag="article"
@@ -46,7 +46,7 @@ export default {
         category: ["action", "science fiction"],
         is_favorite: false,
         alt_text: "Lightsaber battle between a Sith and Jedi",
-        img_name: "phantomMenancePic.jpg"
+        img_name: 'img/phantomMenancePic.jpg'
       },
       {
         id: 2,
@@ -58,7 +58,7 @@ export default {
         category: ["action", "science fiction"],
         is_favorite: false,
         alt_text: "Jedi looking distraught at the impending battle",
-        img_name: "phantomMenancePic.jpg"
+        img_name: 'img/attackOfTheClones.jpg'
       },
       {
         id: 3,
@@ -70,7 +70,7 @@ export default {
         category: ["action", "science fiction"],
         is_favorite: false,
         alt_text: "Epic battle between Obi-Wan and Anakin",
-        img_name: "phantomMenancePic.jpg"
+        img_name: 'img/revengeOfTheSith.jpg'
       },
       {
         id: 4,
@@ -82,7 +82,7 @@ export default {
         category: ["action", "science fiction"],
         is_favorite: false,
         alt_text: "Hans, Leia and Luke debating their next move",
-        img_name: "phantomMenancePic.jpg"
+        img_name: 'img/aNewHope.jpg'
       },
       {
         id: 5,
@@ -94,7 +94,7 @@ export default {
         category: ["action", "science fiction"],
         is_favorite: false,
         alt_text: "Luke fighting Darth Vader",
-        img_name: "phantomMenancePic.jpg"
+        img_name: 'img/empireStrikesBack.png'
       },
       {
         id: 6,
@@ -106,7 +106,7 @@ export default {
         category: ["action", "science fiction"],
         is_favorite: false,
         alt_text: "A Star Wars celebration",
-        img_name: "phantomMenancePic.jpg"
+        img_name: 'img/returnOfTheJedi.jpg'
       }
     ],
     //defining the product objects
@@ -137,5 +137,6 @@ export default {
 </script>
 
 <style scoped>
+
 
 </style>

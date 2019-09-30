@@ -1,8 +1,8 @@
-
 <template>
     <div>
         <Header v-bind:product_passed="product" />
         <ProductsDisplay @clicked="add_to_cart" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </div>
 </template>
 
@@ -38,3 +38,7 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+
+</style>
