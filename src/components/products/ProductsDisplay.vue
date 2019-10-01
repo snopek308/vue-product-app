@@ -46,7 +46,7 @@ export default {
         category: ["action", "science fiction"],
         is_favorite: false,
         alt_text: "Lightsaber battle between a Sith and Jedi",
-        img_name: 'img/phantomMenancePic.jpg'
+        img_name: 'img/phatomMenancePic.jpg'
       },
       {
         id: 2,
@@ -70,7 +70,7 @@ export default {
         category: ["action", "science fiction"],
         is_favorite: false,
         alt_text: "Epic battle between Obi-Wan and Anakin",
-        img_name: 'img/revengeOfTheSith.jpg'
+        img_name: 'img/revengeOfTheSith.png'
       },
       {
         id: 4,
