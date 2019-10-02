@@ -46,7 +46,7 @@ export default {
         category: ["action", "science fiction"],
         is_favorite: false,
         alt_text: "Lightsaber battle between a Sith and Jedi",
-        img_name: 'img/phatomMenancePic.jpg'
+        img_name: 'img/Phantom-1.jpg'
       },
       {
         id: 2,
@@ -58,7 +58,7 @@ export default {
         category: ["action", "science fiction"],
         is_favorite: false,
         alt_text: "Jedi looking distraught at the impending battle",
-        img_name: 'img/attackOfTheClones.jpg'
+        img_name: 'img/Attack-1.jpg'
       },
       {
         id: 3,
@@ -70,7 +70,7 @@ export default {
         category: ["action", "science fiction"],
         is_favorite: false,
         alt_text: "Epic battle between Obi-Wan and Anakin",
-        img_name: 'img/revengeOfTheSith.png'
+        img_name: 'img/Stith-1.jpg'
       },
       {
         id: 4,
@@ -82,7 +82,7 @@ export default {
         category: ["action", "science fiction"],
         is_favorite: false,
         alt_text: "Hans, Leia and Luke debating their next move",
-        img_name: 'img/aNewHope.jpg'
+        img_name: 'img/aNewHope-2.jpg'
       },
       {
         id: 5,
@@ -94,7 +94,7 @@ export default {
         category: ["action", "science fiction"],
         is_favorite: false,
         alt_text: "Luke fighting Darth Vader",
-        img_name: 'img/empireStrikesBack.png'
+        img_name: 'img/EmpireStikes-1.jpg'
       },
       {
         id: 6,
@@ -106,7 +106,7 @@ export default {
         category: ["action", "science fiction"],
         is_favorite: false,
         alt_text: "A Star Wars celebration",
-        img_name: 'img/returnOfTheJedi.jpg'
+        img_name: 'img/Return-1.jpg'
       }
     ],
     //defining the product objects
@@ -137,6 +137,29 @@ export default {
 </script>
 
 <style scoped>
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  max-width: 100%;
+  height: 400px;
+  max-height: 100%;
+  
+}
+
+#b-card_img-src
+{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  max-width: 100%;
+  height: 400px;
+  max-height: 100%;
+}
 
 
 </style>
